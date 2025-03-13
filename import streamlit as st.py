@@ -8,7 +8,7 @@ with st.container():
 
 @st.cache_data
 def carregar_dados():
-    tabela = pd.read_excel(""wine_data.xlsx"")
+    tabela = pd.read_excel("wine_data.xlsx")
     return tabela
 
 with st.container():
